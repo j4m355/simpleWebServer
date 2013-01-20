@@ -10,7 +10,6 @@ var logger = function(req, res, next) {
     next();
 }
 
-
 app.configure(function(){
     app.use(logger);
     app.use(express.static('../'));
