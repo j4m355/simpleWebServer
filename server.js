@@ -1,6 +1,6 @@
 var express = require('express');
 var http = require('http');
-var toolbox = require('Toolbox');
+var toolbox = require('toolbox');
 
 var app = express();
 var server = http.createServer(app);
