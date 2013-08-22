@@ -1,7 +1,15 @@
 express = require("express")
 http = require("http")
 toolbox = require("toolbox")
+
+cors = require('cors')
+
+
+
 app = express()
+
+app.use(cors())
+
 server = http.createServer(app)
 logger = (req, res, next) ->
   console.log req.method + ": " + req.url
