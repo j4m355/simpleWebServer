@@ -25,6 +25,8 @@ process.argv.forEach((val, index, array)->
 app.configure ->
   app.use logger
   app.use express.static("../", cors())
+  app.use (req,res)->
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:8001")
 
 
 port = null
