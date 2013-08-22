@@ -23,7 +23,7 @@ process.argv.forEach((val, index, array)->
     )
 
 app.configure ->
-  app.use cors
+  app.use cors()
   app.use logger
   app.use express.static("../")
 
