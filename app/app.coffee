@@ -27,7 +27,7 @@ app.configure ->
   app.use express.static("../")
   app.use (req,res)->
     console.log "ear"
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:4444")
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:8001")
     res.end('hmm')
 
 
