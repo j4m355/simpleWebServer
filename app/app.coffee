@@ -8,7 +8,7 @@ cors = require('cors')
 
 app = express()
 
-app.use(cors())
+
 
 server = http.createServer(app)
 logger = (req, res, next) ->
@@ -23,8 +23,10 @@ process.argv.forEach((val, index, array)->
     )
 
 app.configure ->
+  app.use cors
   app.use logger
   app.use express.static("../")
+
 
 port = null
 
