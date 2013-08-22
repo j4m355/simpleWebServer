@@ -2,7 +2,7 @@ express = require("express")
 http = require("http")
 toolbox = require("toolbox")
 
-cors = require('cors')
+
 
 
 
@@ -24,10 +24,11 @@ process.argv.forEach((val, index, array)->
 
 app.configure ->
   app.use logger
-  app.use express.static("../", cors())
+  app.use express.static("../")
   app.use (req,res)->
     console.log "ear"
     res.setHeader("Access-Control-Allow-Origin", "http://localhost:4444")
+    res.end('hmm')
 
 
 port = null
