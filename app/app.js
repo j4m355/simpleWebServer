@@ -17,7 +17,7 @@ var app = connect()
     });
 
 var port = null;
-var args = [];
+var args = [2];
 
 if (args[0] == undefined)
 {
