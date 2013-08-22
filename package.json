@@ -10,7 +10,8 @@
     "dependencies": {
     "coffee-script": "~1.4.0",
     "express": "3.0.6",
-    "toolbox": "~0.1.1"
+    "toolbox": "~0.1.1",
+    "cors" : "*"
   },
   "devDependencies": {
     "coffee-script": "~1.4.0"
