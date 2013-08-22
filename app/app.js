@@ -20,13 +20,13 @@ var port = null;
 
 if (args[0] == undefined)
 {
-  console.log "port " + args[0] 
-  port = toolbox.getRandomNum(8000, 9999)
+  console.log("port " + args[0] );
+  port = toolbox.getRandomNum(8000, 9999);
 }  
 else
 {
-  console.log "random " + args[0]
-  port = args[0]
+  console.log("random " + args[0]);
+  port = args[0];
 }
 
 
