@@ -1,8 +1,15 @@
 {
-  "author": "James Campbell <e@mailjames.com>",
+  "author": "j4m355 <e@mailjames.com>",
   "name": "staticserver",
   "description": "Simple static web server for development. npm install globally to run from anywhere",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "keywords": [
+    "static",
+    "server",
+    "webserver",
+    "express",
+    "CORS"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/j4m355/staticServer.git"
@@ -14,11 +21,12 @@
     "argsparser" : "*"
   },
    "bin": {
-    "placeholder": "./bin/staticServer"
+    "staticserver": "./bin/staticServer"
     },
   "devDependencies": {
     "coffee-script": "~1.4.0"
   },
+  "preferGlobal": true,
   "optionalDependencies": {},
   "engines": {
     "node": "*"
