@@ -9,7 +9,8 @@ To Install:
 
 To Run:
 -------
-From the directory you want to run:
+From the directory where your website is just call:
+    
     staticserver
 
 Optional Args:
