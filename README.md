@@ -15,13 +15,13 @@ From the directory where your website is just call:
 
 Optional Args:
 ---------------
-    -p <port> - for manual port (default to 8000)
-    -c <true | false> - turn cahce on/off (default true)
+    -p <port> - For manual port (default to 8000)
+    -c <true | false> - Turn cahce on/off (default true)
     -d <path> - Run from a different dir
-    -l <true | false> - show directory listing
+    -l <true | false> - Show directory listing
     -x <domains seperated by coma> - Allow cross domain requests from named origin CORS
-    -h - help
-    --help - the police
+    -h - Help
+    --help - The police
 
 
 Stuff
