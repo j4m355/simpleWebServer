@@ -9,7 +9,7 @@ To Install:
 
 To Run:
 -------
-    From the directory you want to run:
+From the directory you want to run:
     staticserver
 
 Optional Args:
@@ -25,4 +25,4 @@ Optional Args:
 
 Stuff
 -----
-    Stuff
+Stuff
