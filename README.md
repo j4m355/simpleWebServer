@@ -1,16 +1,31 @@
-#Simple Web Server
+#Simple Static Web Server
 
-A simple webserver built using express ideal for development.
+A simple static webserver built using express ideal for development.
 -------------------------------------------------------------
 
-Git clone into each project you want a webserver for...
+Git clone and install globally...
+	To Install:
+	-----------
+    cd staticServe
+    npm install -g
 
-    cd simpleWebServer
-    npm install
-    node index.js
-    (optionally you can pass in a port number eg node index.js 3000)
+    To Run:
+    -------
+    From the directory you want to run:
+    staticServe
 
-Uses a random port beween 8000 and 99999 - so you can run multiple sites from their own respective code folder
+    Optional Args:
+    ---------------
+    -p <port> - for manual port (default to 8000)
+    -c <true | false> - turn cahce on/off (default true)
+    -d <path> - Run from a different dir
+    -l <true | false> - show directory listing
+    -x <domains seperated by coma> - Allow cross domain requests from named origin CORS
+    -h - help
+    --help - the police
+
+
+
 
 Cors should be enabled for all routes
 

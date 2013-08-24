@@ -1,18 +1,21 @@
 {
   "author": "James Campbell <e@mailjames.com>",
-  "name": "simpleWebServer",
-  "description": "Simple web ser",
+  "name": "staticServe",
+  "description": "Simple static server",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/j4m355/simpleWebServer.git"
+    "url": "git://github.com/j4m355/staticServe.git"
   },
     "dependencies": {
     "coffee-script": "~1.4.0",
     "express": "3.0.6",
-    "toolbox": "~0.1.1",
-    "cors" : "*"
+    "cors" : "*",
+    "argsparser" : "*"
   },
+   "bin": {
+    "placeholder": "./bin/staticServe"
+    },
   "devDependencies": {
     "coffee-script": "~1.4.0"
   },
