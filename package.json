@@ -1,6 +1,6 @@
 {
   "author": "James Campbell <e@mailjames.com>",
-  "name": "staticServe",
+  "name": "staticserve",
   "description": "Simple static server",
   "version": "1.0.0",
   "repository": {
