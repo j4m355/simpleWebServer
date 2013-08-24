@@ -1,11 +1,11 @@
 {
   "author": "James Campbell <e@mailjames.com>",
-  "name": "staticserve",
+  "name": "staticserver",
   "description": "Simple static server",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/j4m355/staticServe.git"
+    "url": "git://github.com/j4m355/staticServer.git"
   },
     "dependencies": {
     "coffee-script": "~1.4.0",
@@ -14,7 +14,7 @@
     "argsparser" : "*"
   },
    "bin": {
-    "placeholder": "./bin/staticServe"
+    "placeholder": "./bin/staticServer"
     },
   "devDependencies": {
     "coffee-script": "~1.4.0"

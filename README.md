@@ -6,13 +6,12 @@ A simple static webserver built using express ideal for development.
 Git clone and install globally...
 	To Install:
 	-----------
-    cd staticServe
-    npm install -g
+    npm install staticserver -g
 
     To Run:
     -------
     From the directory you want to run:
-    staticServe
+    staticserver
 
     Optional Args:
     ---------------
