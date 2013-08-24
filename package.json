@@ -2,7 +2,7 @@
   "author": "j4m355 <e@mailjames.com>",
   "name": "staticserver",
   "description": "Simple static web server for development. npm install globally to run from anywhere",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "keywords": [
     "static",
     "server",
