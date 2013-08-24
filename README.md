@@ -1,9 +1,7 @@
 #Simple Static Web Server
 
 A simple static webserver for local hosting. Ideal for development.
--------------------------------------------------------------------
 
-Git clone and install globally...
 
 To Install:
 -----------
